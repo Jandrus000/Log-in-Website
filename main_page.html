@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <script>
+        function showProfile(){
+            var popup = document.getElementById("profile_text");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+    <div class ="profile_frame "id="profile_frame" onclick="showProfile()">
+        <image id="profile_icon" src="profile.png"></image>
+            <!-- <div class = "profile_info">
+                <p id="name">name</p>
+                <p class="profile_text"> Your least favorite movie is</p>
+                <p  class="profile_text" id = "movie">movie</p>
+                <br>
+                <p class="profile_text"> Your favorite food is </p>
+                <p class="profile_text" id="food">food</p>
+            </div>
+            <br>  -->
+    </div>
+    <a class = "log-out-link" id ="log-out" href="index.html">Log-out</a>
+
+    <h1>
+        Congrats you are signed in!
+    </h1>
+    <image src="fish.gif"></image>
+    
+    
+    
+</body>
+</html>
